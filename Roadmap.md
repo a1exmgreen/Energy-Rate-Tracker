@@ -4,13 +4,13 @@
 
 ### Checklist:
 
-- [ ] Create main folder: energy\_auto\_advisor  
-- [ ] Add subfolder:  
-      - [ ] /modules  
-      - [ ] /data  
-      - [ ] /dashboard  
-      - [ ] /config  
-      - [ ] /logs  
+- [x] Create main folder: energy\_auto\_advisor  
+- [x] Add subfolder:  
+      - [x] /modules  
+      - [x] /data  
+      - [x] /dashboard  
+      - [x] /config  
+      - [x] /logs  
             
 
 ### Helpful AI Prompt:
