@@ -21,9 +21,9 @@
 
 ### Checklist:
 
-- [ ] Create config.yaml  
-- [ ] Add basic settings: provider, API keys (if any), run interval  
-- [ ] Add user notifications preferences
+- [x] Create config.yaml  
+- [x] Add basic settings: provider, API keys (if any), run interval  
+- [x] Add user notifications preferences
 
 ### Helpful AI Prompt:
 
