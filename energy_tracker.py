@@ -1,3 +1,10 @@
+def get_float(prompt):
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("❌ Please enter a valid number.")
+
 def get_recommendation(variable, fixed, trend):
     threshold = variable * 1.05
 
@@ -7,13 +14,14 @@ def get_recommendation(variable, fixed, trend):
         return "❌ WAIT - prices are falling"
     else:
         return "⚠️ HOLD - not worth fixing yet"
-    
+
 def main():
     print("=== Engery Tariff Decision Tool ===\n")
 
     # User input
-    variable = float(input("Enter current VARIABLE monthly (£): "))
-    fixed = float(input("Enter best FIXED deal monthly (£): "))
+    variable = get_float("Enter current VARIABLE monthly (£): ")
+    fixed = get_float("Enter best FIXED deal monthly (£): ")
+
     trend = input("Market trend? (up/down/stable): ").lower()
 
     # Get recommendation
